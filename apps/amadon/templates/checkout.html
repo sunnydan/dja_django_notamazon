@@ -1,0 +1,4 @@
+<h1>Thank you for your business!</h1>
+<p>We charged your credit card for ${{ request.session.lastpurchase }}</p>
+<p>You have ordered {{ request.session.itemsordered }} items so far and spent ${{ request.session.total }} with Amadon.com!</p>
+<p><a style="margin-right: 10px;" href="/amadon/">Go back</a><a href="/clear/">Clear purchase history</a></p>
